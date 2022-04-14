@@ -1,0 +1,59 @@
+.icon {
+    background-color: white;
+    border: 0;
+    font-size: 50px;
+    display: flex;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.cardsView {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.shopCard {
+    margin: 30px;
+    width: 25%;
+    text-align: center;
+    display: block;
+    background-color: rgb(242, 242, 242);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(188, 188, 188);
+    
+}
+.shopCardImg {
+    width: 50%;
+}
+.shopcardPriceButton {
+    display: flex; 
+    justify-content: space-around;
+    margin-bottom: 30px;
+    color: red;
+}
+.shopCardButton {
+    color: red;
+    font-weight: 900;
+    border: 2px red solid;
+    border-radius: 20px;
+    padding: 5px;
+}
+.shopItem {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(242, 242, 242);
+    vertical-align: middle;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.shopItemImg {
+    width: 100px;
+}
+.shopItemPrice {
+color:red;  
+}
+.shopItemButton {
+    color: red;
+    border: 2px red solid;
+    border-radius: 20px;
+}
